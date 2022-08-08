@@ -9,7 +9,13 @@ import UIKit
 
 class ProfileVC: UIViewController {
 
-  
+    var user: UserModel?
+    @IBOutlet weak var infoUser: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+}
     
 
     @IBAction func logOutAction(_ sender: Any) {
@@ -23,5 +29,9 @@ class ProfileVC: UIViewController {
         
     }
     
+    private func setupUI() {
+        let name = UserDefaults.standard.string(forKey: "email")
+        infoUser.text = name
    
+    }
 }

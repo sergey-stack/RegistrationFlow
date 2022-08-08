@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872A804B28A053AE00917765 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A804A28A053AE00917765 /* FirstVC.swift */; };
 		8785B3902897F3DA00D941AD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785B38F2897F3DA00D941AD /* SignInVC.swift */; };
 		879696FC289AF6B800DDE12C /* UIVeiwControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879696FB289AF6B800DDE12C /* UIVeiwControllerExtensions.swift */; };
 		879696FF289B0A7F00DDE12C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879696FE289B0A7F00DDE12C /* UserModel.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		872A804A28A053AE00917765 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		8785B38F2897F3DA00D941AD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		879696FB289AF6B800DDE12C /* UIVeiwControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVeiwControllerExtensions.swift; sourceTree = "<group>"; };
 		879696FE289B0A7F00DDE12C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			children = (
 				879696FB289AF6B800DDE12C /* UIVeiwControllerExtensions.swift */,
 				87E661F6289ED96B0098B716 /* UserDefaultsExt.swift */,
+				872A804A28A053AE00917765 /* FirstVC.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				87E661F3289ECC840098B716 /* WelcomVC.swift in Sources */,
 				879696FC289AF6B800DDE12C /* UIVeiwControllerExtensions.swift in Sources */,
 				87969701289B0CB500DDE12C /* CodeVerifVC.swift in Sources */,
+				872A804B28A053AE00917765 /* FirstVC.swift in Sources */,
 				8785B3902897F3DA00D941AD /* SignInVC.swift in Sources */,
 				87C2BE11289C436A0059055C /* SceneDelegate.swift in Sources */,
 			);

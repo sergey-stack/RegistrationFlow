@@ -15,7 +15,7 @@ final class WelcomVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupUI()
+        
     }
 
     @IBAction func continueAction() {
@@ -27,8 +27,5 @@ final class WelcomVC: UIViewController {
         navigationController?.popToRootViewController(animated: true)
     }
 
-    private func setupUI() {
-        let name = userModel?.name ?? "User"
-        infoLbl.text = "\(name) welcom to our Cool App"
-    }
+   
 }

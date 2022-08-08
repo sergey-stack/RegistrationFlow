@@ -37,18 +37,30 @@
                                     <action selector="deleteAction:" destination="l22-NC-8xJ" eventType="touchUpInside" id="4MY-YU-Nen"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXf-zP-CYa">
+                                <rect key="frame" x="25" y="258" width="364" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V15-hJ-41e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="V15-hJ-41e" firstAttribute="trailing" secondItem="Ebc-mg-SZt" secondAttribute="trailing" constant="7" id="1vw-lV-jBS"/>
+                            <constraint firstItem="mXf-zP-CYa" firstAttribute="leading" secondItem="V15-hJ-41e" secondAttribute="leading" constant="25" id="BWv-KM-5Df"/>
                             <constraint firstItem="FtZ-eO-LW6" firstAttribute="centerX" secondItem="V15-hJ-41e" secondAttribute="centerX" id="MOC-CU-nyP"/>
                             <constraint firstItem="V15-hJ-41e" firstAttribute="top" secondItem="Ebc-mg-SZt" secondAttribute="top" constant="2" id="RRl-m5-9A4"/>
                             <constraint firstItem="Ebc-mg-SZt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="V15-hJ-41e" secondAttribute="leading" symbolic="YES" id="S0D-DB-td4"/>
+                            <constraint firstItem="V15-hJ-41e" firstAttribute="trailing" secondItem="mXf-zP-CYa" secondAttribute="trailing" constant="25" id="WTO-DE-Pj9"/>
                             <constraint firstItem="V15-hJ-41e" firstAttribute="bottom" secondItem="FtZ-eO-LW6" secondAttribute="bottom" constant="149" id="XUz-kb-Ty6"/>
+                            <constraint firstItem="mXf-zP-CYa" firstAttribute="top" secondItem="V15-hJ-41e" secondAttribute="top" constant="214" id="Y11-5B-ObT"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="profile" image="person" catalog="system" id="WcA-3H-U1q"/>
+                    <connections>
+                        <outlet property="infoUser" destination="mXf-zP-CYa" id="YY4-fQ-Rui"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXs-dD-DwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

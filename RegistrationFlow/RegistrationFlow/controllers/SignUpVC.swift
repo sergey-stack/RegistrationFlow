@@ -137,8 +137,8 @@ final class SignUpVC: UIViewController {
         
     // MARK: - Navigation
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let codeVerifVC = segue.destination as? CodeVerifVC,
-           let userModel = sender as? UserModel { codeVerifVC.userModel = userModel }
-    }
+   // override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       // if let codeVerifVC = segue.destination as? CodeVerifVC,
+          // let userModel = sender as? UserModel { codeVerifVC.userModel = userModel }
+   // }
 }
