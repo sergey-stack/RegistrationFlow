@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87150FC228A65F8E0029085C /* EditeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87150FC128A65F8E0029085C /* EditeVC.swift */; };
 		872A804B28A053AE00917765 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A804A28A053AE00917765 /* FirstVC.swift */; };
 		8785B3902897F3DA00D941AD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785B38F2897F3DA00D941AD /* SignInVC.swift */; };
 		879696FC289AF6B800DDE12C /* UIVeiwControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879696FB289AF6B800DDE12C /* UIVeiwControllerExtensions.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87150FC128A65F8E0029085C /* EditeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditeVC.swift; sourceTree = "<group>"; };
 		872A804A28A053AE00917765 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		8785B38F2897F3DA00D941AD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		879696FB289AF6B800DDE12C /* UIVeiwControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVeiwControllerExtensions.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				8785B38F2897F3DA00D941AD /* SignInVC.swift */,
 				87E661F2289ECC840098B716 /* WelcomVC.swift */,
 				87969700289B0CB500DDE12C /* CodeVerifVC.swift */,
+				87150FC128A65F8E0029085C /* EditeVC.swift */,
 				87E661F8289EEE8C0098B716 /* ProfileVC.swift */,
 				879DE52D2899926500905C2A /* SignUpVC.swift */,
 			);
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87150FC228A65F8E0029085C /* EditeVC.swift in Sources */,
 				87E661F9289EEE8C0098B716 /* ProfileVC.swift in Sources */,
 				87C2BE0F289C427E0059055C /* AppDelegate.swift in Sources */,
 				879DE52E2899926500905C2A /* SignUpVC.swift in Sources */,
