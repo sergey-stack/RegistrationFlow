@@ -8,26 +8,39 @@
 import UIKit
 
 class SignInVC: UIViewController {
-
-    @IBOutlet weak var errorPass: UILabel!
-    @IBOutlet weak var passTF: UITextField!
-    @IBOutlet weak var errorEmail: UILabel!
-    @IBOutlet weak var emailTF: UITextField!
+    @IBOutlet var errorPass: UILabel!
+    @IBOutlet var passTF: UITextField!
+    @IBOutlet var errorEmail: UILabel!
+    @IBOutlet var emailTF: UITextField!
+    var user: UserModel?
     override func viewDidLoad() {
         super.viewDidLoad()
+        isLoggedUser()
+    }
 
-        // Do any additional setup after loading the view.
+    @IBAction func signInAction() {
+        let userModel = userDefault.getUserModel(),
+          email = emailTF.text,
+            pass = passTF.text
+          if email == userModel?.email,
+           pass == userModel?.pass { performSegue(withIdentifier: "goToMain", sender: nil) } else if  email != userModel?.email { errorEmail.isHidden = false }
+    
+    }
+
+    private func isLoggedUser() {
+        if let _ = userDefault.getUserModel() {
+            performSegue(withIdentifier: "goToMain", sender: nil)
+        }
     }
     
+     // MARK: - Navigation
 
-    /*
-    // MARK: - Navigation
+     
+    // override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       //  guard let vc = segue.destination as? ProfileVC
+       //  else { return }
+       //  vc.user = user
+        
+     }
+     
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}

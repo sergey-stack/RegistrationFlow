@@ -1,14 +1,14 @@
 //
 //  AppDelegate.swift
-//  RegistrationFlow
+//  sadasdas
 //
-//  Created by сергей on 1.08.22.
+//  Created by сергей on 4.08.22.
 //
 
 import UIKit
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class  AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
